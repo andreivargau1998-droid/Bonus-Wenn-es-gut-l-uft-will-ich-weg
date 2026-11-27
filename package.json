@@ -1,0 +1,7 @@
+{
+  "name": "landing-bonus-wenn-es-gut-laeuft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page per il bonus del libro 'Wenn es gut läuft, will ich weg'",
+  "engines": { "node": ">=18" }
+}

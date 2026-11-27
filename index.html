@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gratis-Bonus: Für den Menschen an deiner Seite</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{--amber:#F5B107;--ink:#111;--paper:#FFF8E6;--mute:#4a4636}
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  html,body{margin:0}
+  body{background:var(--amber);color:var(--ink);font-family:'Lora',Georgia,serif;font-size:18px;line-height:1.55;min-height:100vh}
+  .wrap{max-width:1040px;margin:0 auto;padding:48px 24px 40px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:start}
+  .kicker{font-size:14px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;margin:0 0 14px}
+  h1{font-family:'Anton',Impact,sans-serif;font-weight:400;font-size:clamp(40px,6vw,68px);line-height:1.02;margin:0 0 20px;text-transform:uppercase}
+  .lead{font-size:20px;margin:0 0 24px}
+  ul.inhalt{list-style:none;padding:0;margin:0 0 24px}
+  ul.inhalt li{padding:10px 0 10px 34px;position:relative;border-top:1.5px solid rgba(17,17,17,.25)}
+  ul.inhalt li:last-child{border-bottom:1.5px solid rgba(17,17,17,.25)}
+  ul.inhalt li:before{content:"";position:absolute;left:0;top:17px;width:18px;height:18px;border:2.5px solid var(--ink);border-radius:50%;background:radial-gradient(circle,var(--ink) 38%,transparent 42%)}
+  .hint{font-style:italic;font-size:16px;margin:0}
+  .card{background:var(--paper);border:3px solid var(--ink);border-radius:6px;padding:30px 28px;box-shadow:8px 8px 0 var(--ink)}
+  .card h2{font-family:'Anton',Impact,sans-serif;font-weight:400;font-size:30px;text-transform:uppercase;margin:0 0 6px}
+  .card p.sub{margin:0 0 20px;color:var(--mute);font-size:16px}
+  label{display:block;font-weight:600;font-size:15px;margin:0 0 6px}
+  input[type=text],input[type=email]{width:100%;font:inherit;font-size:17px;padding:12px 14px;border:2px solid var(--ink);border-radius:4px;background:#fff;color:var(--ink);margin-bottom:16px}
+  input:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid var(--amber);outline-offset:2px;box-shadow:0 0 0 5px var(--ink)}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  .consent{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.45;color:var(--mute);margin:2px 0 18px}
+  .consent input{margin-top:3px;width:18px;height:18px;flex:none;accent-color:var(--ink)}
+  button.cta{width:100%;font-family:'Anton',Impact,sans-serif;font-size:21px;letter-spacing:.04em;text-transform:uppercase;background:var(--ink);color:var(--amber);border:0;border-radius:4px;padding:15px 18px;cursor:pointer}
+  button.cta:disabled{opacity:.6;cursor:wait}
+  .err{color:#9b1c1c;font-size:15px;font-weight:600;margin:12px 0 0;min-height:1.2em}
+  .ok h2{margin-bottom:10px}
+  .ok a.dl{display:block;text-align:center;text-decoration:none;font-family:'Anton',Impact,sans-serif;font-size:21px;letter-spacing:.04em;text-transform:uppercase;background:var(--ink);color:var(--amber);border-radius:4px;padding:15px 18px;margin:18px 0 12px}
+  footer{max-width:1040px;margin:0 auto;padding:0 24px 40px;font-size:13px;color:#2b2610}
+  footer a{color:inherit}
+  @media(max-width:820px){.wrap{grid-template-columns:1fr;gap:32px;padding-top:32px}.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <section>
+    <p class="kicker">Gratis-Bonus zum Buch „Wenn es gut läuft, will ich weg“</p>
+    <h1>Für den Menschen an deiner Seite</h1>
+    <p class="lead">Ein Blatt zum Mitlesen, Ausdrucken und Weitergeben: damit dein Partner oder deine Partnerin versteht, was im Schalter-Moment passiert, ohne Schuldzuweisung.</p>
+    <ul class="inhalt">
+      <li>Was beim Rückzug nach einem schönen Moment passiert</li>
+      <li>Was in solchen Momenten oft hilft und was selten</li>
+      <li>Sätze für ein ruhiges Gespräch an einem ruhigen Tag</li>
+      <li>Wann Unterstützung von außen sinnvoll ist</li>
+    </ul>
+    <p class="hint">Vier Seiten. Ausdrucken, auf den Tisch legen, fertig.</p>
+  </section>
+
+  <section class="card" id="card">
+    <div id="formState">
+      <h2>Bonus sichern</h2>
+      <p class="sub">Trag dich ein und du bekommst den Zugang sofort auf dieser Seite.</p>
+      <form id="f" novalidate>
+        <div class="row">
+          <div><label for="vorname">Vorname</label><input type="text" id="vorname" name="vorname" autocomplete="given-name" required></div>
+          <div><label for="nachname">Nachname</label><input type="text" id="nachname" name="nachname" autocomplete="family-name" required></div>
+        </div>
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="email" autocomplete="email" required>
+        <div class="hp" aria-hidden="true"><label for="website">Website</label><input type="text" id="website" name="website" tabindex="-1" autocomplete="off"></div>
+        <label class="consent" for="consent">
+          <input type="checkbox" id="consent" name="consent" required>
+          <span>Ich bin einverstanden, dass meine Daten (Vorname, Nachname, E-Mail) gespeichert werden, damit ich den Bonus erhalte und die Autorin mir gelegentlich Informationen zum Buch schicken darf. Ich kann das jederzeit widerrufen.</span>
+        </label>
+        <button class="cta" type="submit" id="btn">Jetzt Bonus freischalten</button>
+        <p class="err" id="err" role="alert"></p>
+      </form>
+    </div>
+
+    <div id="okState" class="ok" hidden>
+      <h2>Danke, es hat geklappt.</h2>
+      <p>Dein Bonus liegt bereit. Du kannst ihn ansehen, herunterladen und ausdrucken.</p>
+      <a class="dl" id="dl" href="#" target="_blank" rel="noopener">Bonus öffnen</a>
+      <p class="hint" style="font-size:15px">Tipp: Speichere dir den Link, dann hast du das Blatt immer zur Hand.</p>
+    </div>
+  </section>
+</main>
+<footer>© Mira Sander · <a href="#">Impressum</a> · <a href="#">Datenschutz</a></footer>
+
+<script>
+(function(){
+  var f=document.getElementById('f'),btn=document.getElementById('btn'),err=document.getElementById('err');
+  var re=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+  f.addEventListener('submit',function(e){
+    e.preventDefault(); err.textContent='';
+    var d={vorname:f.vorname.value.trim(),nachname:f.nachname.value.trim(),email:f.email.value.trim(),website:f.website.value,consent:f.consent.checked};
+    if(!d.vorname||!d.nachname){err.textContent='Bitte gib Vor- und Nachnamen ein.';return;}
+    if(!re.test(d.email)){err.textContent='Bitte gib eine gültige E-Mail-Adresse ein.';return;}
+    if(!d.consent){err.textContent='Bitte bestätige das Einverständnis, damit wir dir den Bonus freischalten können.';return;}
+    btn.disabled=true; btn.textContent='Einen Moment …';
+    fetch('/api/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)})
+      .then(function(r){return r.json().catch(function(){return {ok:false};});})
+      .then(function(j){
+        if(j&&j.ok===true&&j.bonusUrl){
+          document.getElementById('dl').href=j.bonusUrl;
+          document.getElementById('formState').hidden=true;
+          document.getElementById('okState').hidden=false;
+        }else{throw new Error('fail');}
+      })
+      .catch(function(){
+        err.textContent='Das hat leider nicht geklappt. Bitte versuche es in einem Moment noch einmal.';
+        btn.disabled=false; btn.textContent='Jetzt Bonus freischalten';
+      });
+  });
+})();
+</script>
+</body>
+</html>
